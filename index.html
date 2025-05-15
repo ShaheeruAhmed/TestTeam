@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Git & GitHub Presentation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+  <ul>
+    <li><a href="#git">Git</a></li>
+    <li><a href="#github">GitHub</a></li>
+    <li><a href="#commands">Commands</a></li>
+    <li><a href="#workflow">Workflow</a></li>
+    <li><a href="#best-practices">Best Practices</a></li>
+  </ul>
+</nav>
+
+  <header class="hero" data-aos="fade-down">
+    <h1>🐙 Git & GitHub 101</h1>
+    <p>🚀 Master Version Control for Modern Development</p>
+  </header>
+
+  <section class="section" id="git" data-aos="fade-up">
+    <h2>🔧 What is Git?</h2>
+    <p>Git is a distributed version control system used to track changes in source code during software development.</p>
+    <ul>
+      <li>🌀 Fast local operations</li>
+      <li>🌿 Easy branching & merging</li>
+      <li>📜 Full history of every change</li>
+    </ul>
+  </section>
+
+  <section class="section" id="github" data-aos="fade-left">
+    <h2>🌐 What is GitHub?</h2>
+    <p>GitHub is a cloud-based hosting service for Git repositories. It adds collaboration tools like issues, pull requests, and wikis.</p>
+    <ul>
+      <li>☁️ Host remote repositories</li>
+      <li>👥 Team collaboration tools</li>
+      <li>🔓 Open-source and private projects</li>
+    </ul>
+  </section>
+
+  <section class="section" id="commands" data-aos="zoom-in">
+    <h2>📜 Common Git Commands</h2>
+    <pre><code>
+git init             # 🆕 Start a repo
+git status           # 📋 View status
+git add .            # ➕ Stage all changes
+git commit -m "msg"  # 📝 Commit with a message
+git push origin main # 🚀 Push to GitHub
+git pull             # ⬇️ Sync changes
+    </code></pre>
+  </section>
+
+  <section class="section" id="workflow" data-aos="fade-right">
+    <h2>🔄 Typical GitHub Workflow</h2>
+    <ol>
+      <li>🔍 Clone the repository</li>
+      <li>🌱 Create a new branch</li>
+      <li>🧠 Make changes and commit</li>
+      <li>🚀 Push to GitHub</li>
+      <li>📬 Open a Pull Request</li>
+      <li>✅ Merge to `main`</li>
+    </ol>
+  </section>
+
+  <section class="section" id="best-practices" data-aos="fade-up">
+    <h2>✅ Best Practices</h2>
+    <ul>
+      <li>🧾 Write clear commit messages</li>
+      <li>🌿 Use branches per feature</li>
+      <li>🔄 Pull frequently to stay in sync</li>
+      <li>🔍 Review code before merging</li>
+    </ul>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>Made with ❤️ by Shaheer— Powered by Git & GitHub 🐙</p>
+  </footer>
+
+  <!-- AOS Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
