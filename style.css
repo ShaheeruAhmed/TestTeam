@@ -7,7 +7,7 @@ body {
 }
 
 header.hero {
-  background-color: #4f41a9;
+  background-color: #161b22;
   padding: 100px 20px;
   text-align: center;
   border-bottom: 2px solid #30363d;
@@ -16,7 +16,7 @@ header.hero {
 h1 {
   font-size: 3rem;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #ffffff
 }
 
 p {
